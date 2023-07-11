@@ -91,13 +91,9 @@ def bracing_calculation(n_bracing_towers):
 
     total_horizontal_bracing =calculate_horizontal_bracing(n_bracing_towers)
 
-
-
-
 n_bays=int(input("Insert the number of bays: "))
 n_deeps=int(input("Insert the number of deeps: "))
 n_bracing_towers=int(input("Insert the number of bracing tower: "))
-
 
 calculate_number_of_beams(1, n_bays,n_deeps)
 calculate_number_of_frames_and_footplates(n_bays)
